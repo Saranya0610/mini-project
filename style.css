@@ -1,0 +1,165 @@
+.form_bg{
+    background: linear-gradient(to bottom,#0063f8, #00cbfe);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.form_horizontal{
+    font-family: 'lato',sans-serif;
+    text-align: center;
+}
+.form_horizontal .form_icon{
+    color: #fff;
+    font-size: 100px;
+    line-height: 85px;
+    margin: 0 0 13px;
+}
+.form_horizontal .title{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 35px 0;
+}
+.form_horizontal .form-group{
+    margin: 0 0 10px;
+    position: relative;
+}
+.form_horizontal .input-icon{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 13px;
+    color: #777;
+}
+
+.form_horizontal .form-control{
+    color: #555;
+    background-color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    height: 37px;
+    padding: 2px 15px 2px 35px;
+    border: none;
+    border-radius: 50px;
+}
+
+.form_horizontal .form-control::placeholder{
+    color: rgba(0,0,0,0,7);
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 50px;
+}
+.form_horizontal .btn{
+    color: #fff;
+    background-color: #222;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.form_horizontal .form-options{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.form_horizontal .form-options li a{
+    color: #ffff;
+    letter-spacing: 0.5px;
+    margin: 0 0 10px;
+    display: block;
+}
+.form_horizontal .form-options li a i{
+    font-size: 12px;
+
+}
+.header-bar {
+    max-width: calc(1300px - 100px);
+    margin: -4px auto;
+}
+
+.branding a {
+    padding: 28px 5px 18px 7px;
+}
+
+.branding a {
+    display: block;
+}
+
+.branding a img,
+.branding img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-bar .branding .mini-widgets {
+    padding: 0px 0px 0px 0px;
+}
+
+.header-bar:not(.logo-center) .branding .mini-widgets {
+    flex-grow: 1;
+}
+
+.header-bar.widgets .branding .mini-widgets {
+    text-align: center;
+    display: flex;
+}
+
+.top-right {
+    position: absolute;
+    top: -28px;
+    right: 49px;
+    display: table;
+}
+
+.helpline {
+    padding-right: 10px;
+    line-height: 35px;
+}
+
+.topaction {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.helpline a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.helpline a {
+    color: #333333;
+    text-decoration: none;
+    background: url(images/phone.png) no-repeat left top;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    background-size: 35px;
+}
+
+.header-bar {
+    font: normal 15px / 28px "Poppins", Helvetica, Arial, Verdana, sans-serif;
+    word-spacing: normal;
+}
+
+.yearslogo {
+    width: 100px;
+    display: flex;
+}
+
+.topaction {
+
+    vertical-align: middle;
+}
+
+.topaction span {
+    font-size: 24px;
+    font-weight: bold;
+}
